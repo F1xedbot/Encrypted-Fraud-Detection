@@ -6,6 +6,10 @@ The main web application is built with Next.js, and it uses a simple No-SQL data
 ## Key Features:
 
 #### - The application can produce predictions with 86% accuracy on encrypted data, compared to the plaintext model which achieves 99% accuracy.
+<p float="left">
+  <img src="images/encrypted_xgb_predictions.png" width="200" />
+  <img src="images/plain_xgb_predictions.png" width="200" /> 
+</p>
 #### - The dataset and the notebook for training both the plaintext and encrypted models are available here: [dataset](https://www.kaggle.com/datasets/k0ala510/fraud-transactions), [notebook](https://www.kaggle.com/code/k0ala510/encryptedxgboost) 
 
 This application showcases the potential of secure and private machine learning, ensuring that sensitive data remains protected while still providing valuable predictive insights. Concrete-ML's encryption capabilities ensure secure data processing, maintaining privacy without significantly compromising accuracy.
