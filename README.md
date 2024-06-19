@@ -6,7 +6,7 @@ The main web application is built with Next.js, and it uses a simple No-SQL data
 ## Key Features:
 
 #### - The application can produce predictions with 86% accuracy on encrypted data, compared to the plaintext model which achieves 99% accuracy.
-<p float="left">
+<p>
   <img src="images/encrypted_xgb_predictions.png" width="200" />
   <img src="images/plain_xgb_predictions.png" width="200" /> 
 </p>
