@@ -6,7 +6,7 @@ The main web application is built with Next.js, and it uses a simple No-SQL data
 ## Key Features:
 
 #### - The application can produce predictions with 86% accuracy on encrypted data, compared to the plaintext model which achieves 99% accuracy.
-#### - The dataset and the notebook for training both the plaintext and encrypted models are available here.
+#### - The dataset and the notebook for training both the plaintext and encrypted models are available here: [dataset](https://www.kaggle.com/datasets/k0ala510/fraud-transactions), [notebook](https://www.kaggle.com/code/k0ala510/encryptedxgboost) 
 
 This application showcases the potential of secure and private machine learning, ensuring that sensitive data remains protected while still providing valuable predictive insights. Concrete-ML's encryption capabilities ensure secure data processing, maintaining privacy without significantly compromising accuracy.
 
@@ -25,9 +25,12 @@ cd Encrypted-Fraud-Detection
 ```
 Import the table schema from the Pocketbase interface. The JSON schema can be found in this repository under the name `pb_schema.json`.
 
+![schema-import](https://github.com/F1xedbot/Encrypted-Fraud-Detection/blob/b69d32cc8979fc74527f627cfbbcf7d0a41c3359/images/schema_import.png?raw=true)
+
+
 Add your sample data into the database.
 
-### 2. Deploy the web application:
+#### 2. Deploy the web application:
 
 ```
 npm install    # Install all dependencies
